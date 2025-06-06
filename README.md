@@ -19,7 +19,7 @@ chrome-extensions-monorepo
 
 ### Extensiones
 
-- **extension-one**: Esta extensión permite al usuario descargar un archivo Excel de 360 y subirlo a un endpoint de Prolibu.
+- **extension-one**: Esta extensión permite al usuario descargar un archivo Excel de Microsoft 365 y subirlo a un endpoint de Prolibu.
 - **extension-two**: Esta extensión permite al usuario autenticarse en Prolibu y muestra la información del usuario logueado.
 
 ### Paquetes Compartidos
