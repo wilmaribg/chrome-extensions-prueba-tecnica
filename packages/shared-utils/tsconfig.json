@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "types": ["chrome", "node"],
+    "noImplicitAny": false,
+    "jsx": "react-jsx", // <-- Required to support .tsx files
+    "baseUrl": ".", // 👈 required for "paths"
+    "paths": {
+      "@sdk": ["../../extensions/office365/.cache/sdk.wrapped.js"]
+    }
+  },
+  "include": ["src"]
+}
