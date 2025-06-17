@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": false,
+    "esModuleInterop": true,
+    "lib": ["dom", "es6"],
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "paths": {
+      "@shared-utils/*": ["../../packages/shared-utils/src/*"],
+      "@utils/*": ["../../utils/*"],
+      "@sdk": ["./.cache/sdk.wrapped.js"]
+    },
+    "types": ["chrome"]
+  },
+  "include": ["src/**/*", "main.ts", "src", "types"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "coverage",
+    "test",
+    "tests",
+    "**/*.spec.ts"
+  ]
+}
